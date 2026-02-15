@@ -1,0 +1,3 @@
+docker run --tty --interactive kalilinux/kali-rolling
+
+apt update; apt upgrade; apt install john

@@ -15,7 +15,11 @@ brew install john-jumbo
 
 ### On Lunix
 
-Install [kali](https://www.kali.org/get-kali/#kali-platforms)
+```
+docker run --tty --interactive kalilinux/kali-rolling
+
+apt update; apt upgrade; apt install john
+```
 
 ---
 

